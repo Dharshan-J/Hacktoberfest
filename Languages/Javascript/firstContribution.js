@@ -13,3 +13,23 @@ console.log(...new Set([...first_arr, ...second_arr]))
 let filtered_arr = first_arr.filter(arr => second_arr.includes(arr))
 
 console.log(filtered_arr)
+
+// map method
+
+let data = [
+    {
+        name: "Dharshan J",
+        age: 21,
+    },
+    {
+        name: "Kunal",
+        age: 22,
+    },
+    {
+        name: "Charan",
+        age: 21,
+    }
+
+]
+let mapedData = data.map(item => item.name)
+console.log(mapedData)
